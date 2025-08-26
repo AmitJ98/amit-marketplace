@@ -1,0 +1,26 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": ["config:recommended"],
+  "labels": ["renovate-bot"],
+  "prHeader": "Dependency Update",
+  "prHourlyLimit": 10,
+  "rebaseWhen": "behind-base-branch",
+  "packageRules": [
+    {
+      "matchManagers": ["pep621"],
+      "matchFileNames": [
+        "packages/mp/**/pyproject.toml",
+        "packages/mp/**/uv.lock"
+      ],
+      "addLabels": ["mp-dependencies"]
+    },
+    {
+      "matchManagers": ["pep621"],
+      "matchFileNames": [
+        "integrations/**/pyproject.toml",
+        "integrations/**/uv.lock"
+      ],
+      "addLabels": ["integrations-dependencies"]
+    }
+  ]
+}
