@@ -1,5 +1,5 @@
 version = 1
-revision = 2
+revision = 3
 requires-python = "==3.11.*"
 
 [[package]]
@@ -191,12 +191,13 @@ wheels = [
 
 [[package]]
 name = "checkdmarc"
-version = "5.7.11"
+version = "5.8.9"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "cryptography" },
     { name = "dnspython" },
     { name = "expiringdict" },
+    { name = "importlib-resources" },
     { name = "pem" },
     { name = "publicsuffixlist" },
     { name = "pyleri" },
@@ -205,9 +206,9 @@ dependencies = [
     { name = "timeout-decorator" },
     { name = "xmltodict" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/e4/01/3e98a21916719cc1968d49b7c8c19bd775c468eba672a0dda785cc95a050/checkdmarc-5.7.11.tar.gz", hash = "sha256:248d5f51dd6a8be85b7206ea418c98dd7c234417fd9507b6ee02b6d27c9786af", size = 41940, upload-time = "2024-12-26T22:15:11.543Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e7/54/b233b5434288357ea3e3b85aace6a3b2ec193d686745ffd5be5a7ed888e1/checkdmarc-5.8.9.tar.gz", hash = "sha256:e5db6dca234624ecb4d5f635a5fc864b72ed5e5a0fa498d099519bb182f2e114", size = 44578, upload-time = "2025-08-24T17:47:51.054Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/81/d1/4e95c1a38c45009898c73f821d426cf3e4933d0eb1ca914508516df6621d/checkdmarc-5.7.11-py2.py3-none-any.whl", hash = "sha256:fb57ded195225664e51492c8bbd4f6e09eb4db07dcc40616cd04d8376d50e763", size = 54563, upload-time = "2024-12-26T22:15:13.742Z" },
+    { url = "https://files.pythonhosted.org/packages/ef/9f/9a31d15942f2662d18fd1a30a18d640b3bdda6bf2d31b95657cb75e6ece5/checkdmarc-5.8.9-py2.py3-none-any.whl", hash = "sha256:bdfc5c0a9a880a2d2980396488757c539df5fafa5d28a80f2acea30b8ecfd0e6", size = 57094, upload-time = "2025-08-24T17:47:52.298Z" },
 ]
 
 [[package]]
@@ -415,7 +416,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "checkdmarc", specifier = "==5.7.11" },
+    { name = "checkdmarc", specifier = "==5.8.9" },
     { name = "compressed-rtf", url = "https://files.pythonhosted.org/packages/8e/ac/abb196bb0b42a239d605fe97c314c3312374749013a07da4e6e0408f223c/compressed_rtf-1.0.6.tar.gz" },
     { name = "dicttoxml", specifier = "==1.7.16" },
     { name = "dkimpy", url = "https://files.pythonhosted.org/packages/f0/6f/84e91828186bbfcedd7f9385ef5e0d369632444195c20e08951b7ffe0481/dkimpy-1.1.8.tar.gz" },
@@ -705,6 +706,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/ea/b7/e0e3c1c467636186c39925827be42f16fee389dc404ac29e930e9136be70/idna-2.10.tar.gz", hash = "sha256:b307872f855b18632ce0c21c5e45be78c0ea7ae4c15c828c20788b26921eb3f6", size = 175616, upload-time = "2020-06-27T23:45:05.21Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a2/38/928ddce2273eaa564f6f50de919327bf3a00f091b5baba8dfa9460f3a8a8/idna-2.10-py2.py3-none-any.whl", hash = "sha256:b97d804b1e9b523befed77c48dacec60e6dcb0b5391d57af6a65a312a90648c0", size = 58811, upload-time = "2020-06-27T23:45:03.457Z" },
+]
+
+[[package]]
+name = "importlib-resources"
+version = "6.5.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/cf/8c/f834fbf984f691b4f7ff60f50b514cc3de5cc08abfc3295564dd89c5e2e7/importlib_resources-6.5.2.tar.gz", hash = "sha256:185f87adef5bcc288449d98fb4fba07cea78bc036455dd44c5fc4a2fe78fed2c", size = 44693, upload-time = "2025-01-03T18:51:56.698Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a4/ed/1f1afb2e9e7f38a545d628f864d562a5ae64fe6f7a10e28ffb9b185b4e89/importlib_resources-6.5.2-py3-none-any.whl", hash = "sha256:789cfdc3ed28c78b67a06acb8126751ced69a3d5f79c095a98298cd8a760ccec", size = 37461, upload-time = "2025-01-03T18:51:54.306Z" },
 ]
 
 [[package]]
