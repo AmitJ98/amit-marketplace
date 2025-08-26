@@ -340,7 +340,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "gspread", specifier = "==6.1.4" }]
+requires-dist = [{ name = "gspread", specifier = "==6.2.1" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -366,15 +366,15 @@ wheels = [
 
 [[package]]
 name = "gspread"
-version = "6.1.4"
+version = "6.2.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "google-auth" },
     { name = "google-auth-oauthlib" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/48/76/d23fcdef5d8137513b64f7447849369983078e4025100d9149d5c8222e5a/gspread-6.1.4.tar.gz", hash = "sha256:b8eec27de7cadb338bb1b9f14a9be168372dee8965c0da32121816b5050ac1de", size = 78251, upload-time = "2024-10-20T22:17:55.678Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/91/83/42d1d813822ed016d77aabadc99b09de3b5bd68532fd6bae23fd62347c41/gspread-6.2.1.tar.gz", hash = "sha256:2c7c99f7c32ebea6ec0d36f2d5cbe8a2be5e8f2a48bde87ad1ea203eff32bd03", size = 82590, upload-time = "2025-05-14T15:56:25.254Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/47/c7/28ad61476626d635288d1671326f6540145778a5f2fc9f907ad4d929ba90/gspread-6.1.4-py3-none-any.whl", hash = "sha256:c34781c426031a243ad154952b16f21ac56a5af90687885fbee3d1fba5280dcd", size = 57574, upload-time = "2024-10-20T22:17:53.906Z" },
+    { url = "https://files.pythonhosted.org/packages/27/76/563fb20dedd0e12794d9a12cfe0198458cc0501fdc7b034eee2166d035d5/gspread-6.2.1-py3-none-any.whl", hash = "sha256:6d4ec9f1c23ae3c704a9219026dac01f2b328ac70b96f1495055d453c4c184db", size = 59977, upload-time = "2025-05-14T15:56:24.014Z" },
 ]
 
 [[package]]

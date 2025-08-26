@@ -4,7 +4,7 @@ version = "13.0"
 description = "Google Sheets is a spreadsheet program included as part of a free, web-based software office suite offered by Google within its Google Drive service. "
 requires-python = ">=3.11,<3.12"
 dependencies = [
-    "gspread==6.1.4",
+    "gspread==6.2.1",
 ]
 
 [dependency-groups]
