@@ -10,7 +10,7 @@ dependencies = [
     "nltk==3.9.1",
     "psycopg2-binary==2.9.10",
     "pyopenssl>=24.3.0",
-    "pyspellchecker==0.8.2",
+    "pyspellchecker==0.8.3",
     "requests>=2.32.3",
     "tipcommon",
     "tldextract==5.1.3",
