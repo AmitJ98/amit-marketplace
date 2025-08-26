@@ -14,13 +14,5 @@
       ],
       "addLabels": ["mp-dependencies"]
     },
-    {
-      "matchManagers": ["pep621"],
-      "matchFileNames": [
-        "integrations/**/pyproject.toml",
-        "integrations/**/uv.lock"
-      ],
-      "addLabels": ["integrations-dependencies"]
-    }
   ]
 }
