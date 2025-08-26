@@ -5,6 +5,9 @@
   "prHeader": "Dependency Update",
   "prHourlyLimit": 0,
   "rebaseWhen": "behind-base-branch",
+  "ignorePaths": [
+    "integrations/**"
+  ],
   "packageRules": [
     {
       "matchManagers": ["pep621"],
