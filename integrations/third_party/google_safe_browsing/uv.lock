@@ -336,7 +336,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "pysafebrowsing", specifier = "==0.1.3" }]
+requires-dist = [{ name = "pysafebrowsing", specifier = "==0.1.4" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -633,15 +633,15 @@ wheels = [
 
 [[package]]
 name = "pysafebrowsing"
-version = "0.1.3"
+version = "0.1.4"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "configparser" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/c5/a0/02f93cf554b76c215bba5adf29c3c1ad48c0856aaa4757d5c720f51e2936/pysafebrowsing-0.1.3.tar.gz", hash = "sha256:9e8e0b1bc98d12ad3dd00e1c65dcc0a0ef6f38fe5afb361884d52a2d705d2032", size = 5362, upload-time = "2024-06-11T08:41:03.475Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/be/19/859635dc53f509ab10f2ae00b6eb003b07d0d396d914d4735923b5135b63/pysafebrowsing-0.1.4.tar.gz", hash = "sha256:d78c03c68a4e3147a320316d0d74292e86b38347ede95a08398555e0fde55629", size = 5627, upload-time = "2025-03-27T11:57:23.284Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ac/c7/1d106ecef2893c2a9d26568018dea397206497d039d198beb270fa1a370c/pysafebrowsing-0.1.3-py3-none-any.whl", hash = "sha256:156d3eb259194e2fa155d6c3c60b2bbba7b8f3235b26f964d91353b40e87b5c5", size = 6401, upload-time = "2024-06-11T08:41:01.895Z" },
+    { url = "https://files.pythonhosted.org/packages/bc/d6/76f5464f789a52b7590df9eeaeb780fccd90f31b205fc3e67521eb386e61/pysafebrowsing-0.1.4-py3-none-any.whl", hash = "sha256:481672ba696ad7c916cbfc62ddca5250064104f7b65e3d5fb8d92b10736b6482", size = 6399, upload-time = "2025-03-27T11:57:21.944Z" },
 ]
 
 [[package]]
