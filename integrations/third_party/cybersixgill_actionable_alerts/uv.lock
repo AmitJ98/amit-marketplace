@@ -234,7 +234,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "sixgill-clients", specifier = "==0.2.26" }]
+requires-dist = [{ name = "sixgill-clients", specifier = "==0.2.27" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -751,14 +751,14 @@ wheels = [
 
 [[package]]
 name = "sixgill-clients"
-version = "0.2.26"
+version = "0.2.27"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/89/b8/2d3ae5e50f87f34b14def1f7aced4a83f5a7a50b10f08d0c15740d3271e2/sixgill-clients-0.2.26.tar.gz", hash = "sha256:9bbe6cde1e84775525b7befb91e6f0f98e08ba12c8cadf65ff0a3e2845906226", size = 11929, upload-time = "2024-02-28T14:20:57.726Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/a5/d2/3297b8b067465988f2a9b66d9db709c3eb69985ace3e169877166e755d2a/sixgill-clients-0.2.27.tar.gz", hash = "sha256:ac40106f8da82ede7ab328be41caea31d7d4a8d5c451c4f7c379bdf4891bb5be", size = 12020, upload-time = "2025-08-26T09:04:45.201Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/44/75/3cca90f34816326ed8dec7dee3bee952a9bed7a880624c4a597355dd1c2f/sixgill_clients-0.2.26-py2.py3-none-any.whl", hash = "sha256:891780b31e47136d5b411b89f2c439645ca34a90ec8ac8de90f6dfce7a60678d", size = 28209, upload-time = "2024-02-28T14:20:55.948Z" },
+    { url = "https://files.pythonhosted.org/packages/e5/c9/643c15fdfef8a78f374d1822c509f300a6dad90a020bc4445c5ab4370d84/sixgill_clients-0.2.27-py2.py3-none-any.whl", hash = "sha256:c9d6a8692ce48c2cb7d5a3207d00c34aacd24dcc3fa0da6ae652bef06222e6f7", size = 28726, upload-time = "2025-08-26T09:04:44.374Z" },
 ]
 
 [[package]]
