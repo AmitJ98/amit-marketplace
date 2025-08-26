@@ -17,5 +17,10 @@
       ],
       "addLabels": ["mp-dependencies"]
     },
+    {
+      "description": "Disable Python version updates",
+      "matchPackageNames": ["python"],
+      "enabled": false
+    }
   ]
 }
