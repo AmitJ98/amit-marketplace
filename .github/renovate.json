@@ -6,7 +6,8 @@
   "prHourlyLimit": 0,
   "rebaseWhen": "behind-base-branch",
   "ignorePaths": [
-    "integrations/**"
+    "integrations/**",
+    ".github/workflows/**"
   ],
   "packageRules": [
     {
